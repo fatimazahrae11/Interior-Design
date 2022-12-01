@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap%27');
+
+body
+{
+    font-family: 'poppins', sans-serif;
+    
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+hr
+{
+    display: block;
+    width: 50px;
+    border: 6px solid red;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+header, main
+{
+    padding-left: 360px; 
+     
+}
+
+.ft, h2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 599;
+    color: #f44336;
+}
+
+h2
+{
+    margin-top: 60px;
+}
+
+h1
+{
+    margin-top: 100px;
+    font-size: 64px;
+    font-weight: 550;
+    
+}
+
+nav
+{
+    position: fixed;
+    height: 100vh;
+    width: 270Px;
+    display: block;
+    background-color: #f44336;
+    float: left;   
+    top: 0;
+    overflow: hidden;
+    z-index: 3;
+    padding: 8px 16px 8px 16px;
+}
+
+h3, a  
+{
+    color: #ffffff; 
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+h3
+{
+    font-size: 24px;
+    font-weight: 500px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+
+a
+{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+a:hover
+{
+    background-color: white;
+    color: #000000;
+    border-radius: 0;
+    
+}
+
+.img
+{
+    display: block;
+}
+.img img{
+    width : 99%;
+    opacity: 0.8;
+}
+
+.container
+{
+    float: left;
+    object-fit: contain;
+    width: 49%;
+}
+
+.container2
+{
+    display: inline-block;
+    object-fit: contain;
+    width:  49%;
+    height: auto; 
+    margin-left: 16px;
+   
+}
+
+.img :hover{
+    opacity: 1;
+}
+.desn img
+{
+    width: 100%;
+    height: auto;
+    filter: grayscale(70%);
+}
+
+.desn
+{
+    width: 100%;
+    display: block;
+}
+
+section .dsn
+{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+    width: 30%;
+    padding-bottom: 100px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+span, .pt, .txt
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.pt
+{
+    color: grey;
+    font-size: 30px;
+}
+
+span
+{
+    font-size: 40px;
+}
+
+.txt
+{
+    margin-top: 50px;
+}
+
+.basic
+{
+    display: block;
+
+}
+
+.table
+{
+    display: block;
+    overflow: hidden;
+
+}
+
+.basic1
+{
+    float: left;
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+
+.basic1 thead
+{
+    color: white;
+    background-color: #616161;
+
+}
+
+th
+{
+    height: 105px;
+}
+
+td
+{
+    border-bottom: 0.4px solid rgb(224, 219, 219);
+    text-align: center;
+    background-color:rgb(239, 239, 239);
+    padding: 16px;
+}
+
+td h2
+{
+    font-weight: 400;
+    color: black;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+small
+{
+    color: #616161;
+}
+
+.btn1 button
+{
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+}
+
+.pro2
+{
+    width: 47%;
+    float: right;
+    border-collapse: collapse;
+    margin-right: 30px;
+}
+
+.pro2 thead
+{
+    background-color: #F44336;
+    color: white;
+}
+
+.btn2 button
+{
+    background-color:#F44336 ;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+}
+
+.btn1 :hover, .btn2 :hover
+{
+        background-color: #000000;
+        color: #ffffff;
+        transition: 0.3s;
+}
+
+p
+{
+    margin-bottom: 15px;
+}
+
+form 
+{ 
+    width:100%;
+    margin:50px auto
+}
+
+.form-input 
+{
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;  
+    background-color: transparent;
+    border: 1px solid #b6b6b6;
+    padding: 13px;
+    margin-bottom: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.button3
+{
+    width: 100%;
+    background-color: #F44336;
+    border-color: #F44336;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px;
+    overflow: hidden;
+    display: block;
+    border-style: none;
+
+}
+
+.button3:hover
+{
+    background-color: #b6b6b6;
+    color: #000000;    
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e6e6e6;
+    z-index: 0;
+    position: relative;
+    margin-top: 40px;
+    padding-left: 180px;
+}
+
+.fa
+{
+    float: left;
+    padding: 10px;
+    margin: 50px;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    line-height: 50px;
+}
+
+.fa-facebook
+{
+    background: #000000;
+    color: white;
+    
+}
+
+.fa-instagram
+{
+    background: #000000;
+    color: white;      
+}
+
